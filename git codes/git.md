@@ -18,13 +18,19 @@ _git commit -m "txt"_  **commita o repositório**
 
 _git status_  **indica se há algo errado com o repositório**
 
-_git remote add "rep.nickname rep.url"_  **inclui o terminal nickname e url do repositório**
+_git remote add "rep.nickname" "rep.url"_  **inclui o terminal nickname e url do repositório**
 
 _git remote -v_  **informa qual url do repositório**
 
 _git push_  **empurra o código para o url do repositório**
 
 git pull **puxa o código da url do repositório**
+
+touch .gitignore **cria um arquivo no repositório que o git irá ler e ignorar o que tiver dentro, seja extensões ou arquivos.**
+
+_git rm --cached file.name_ **irá tornar o arquivo untracked**
+
+_git rm --cached -r dir.name_ **irá tornar o diretório untracked, junto de todos os arquivos e diretórios internos**
 
 
 
