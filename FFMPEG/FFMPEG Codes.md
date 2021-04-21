@@ -11,4 +11,4 @@ _ffprobe //see all audio tracks of a file_
 _ffmpeg -i xXxX.ext -map "#1":"#2" xXxX.ext_
 
 ## //Low audio bit
-_ffmpeg -i input.file -map 0:a:0 -b:a 96k output.mp3_
+_ffmpeg -i input.file -map **0:a:0** -b:a 96k output.mp3_
