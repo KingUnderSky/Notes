@@ -22,7 +22,9 @@ _git remote add "rep.nickname" "rep.url"_  **inclui o terminal nickname e url do
 
 _git remote -v_  **informa qual url do repositório**
 
-_git push_  **empurra o código para o url do repositório**
+_git branch -M main_ **torna o branch do repositório main**
+
+_git push -u "rep.nickname" main_ **empurra o código para o url do repositório**
 
 git pull **puxa o código da url do repositório**
 
